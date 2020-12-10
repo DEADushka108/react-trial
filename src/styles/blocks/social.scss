@@ -1,0 +1,49 @@
+.social {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.social__title {
+  color: $text-white;
+  text-align: center;
+}
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.social__item {
+  padding-bottom: 10px;
+}
+
+.social__link {
+  text-decoration: none;
+  color: $text-white;
+
+  &:hover {
+    color: $text-blue;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social {
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 38px;
+  }
+
+  .social__title {
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+
+  .social__item {
+    text-align: left;
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+}
